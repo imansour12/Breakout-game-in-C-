@@ -30,6 +30,7 @@ namespace Breakout_Game
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtScore = new System.Windows.Forms.Label();
             this.player = new System.Windows.Forms.PictureBox();
             this.ball = new System.Windows.Forms.PictureBox();
@@ -276,8 +277,12 @@ namespace Breakout_Game
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.player);
             this.Controls.Add(this.txtScore);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nightmare. Nightmare. Nightmare. Nightmare. Nightmare. Nightmare. ";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
             ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
