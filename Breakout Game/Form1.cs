@@ -12,6 +12,9 @@ namespace Breakout_Game
 {
     public partial class Form1 : Form
     {
+        //Apply the Metro theme extesnion thingy
+
+
         //Making the boolean variables for the game
         bool goLeft;
         bool goRight;

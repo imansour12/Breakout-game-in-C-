@@ -8,3 +8,7 @@ C:\Users\USER\source\repos\Breakout Game\Breakout Game\obj\Debug\Breakout Game.c
 C:\Users\USER\source\repos\Breakout Game\Breakout Game\obj\Debug\Breakout Game.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\Breakout Game\Breakout Game\obj\Debug\Breakout Game.exe
 C:\Users\USER\source\repos\Breakout Game\Breakout Game\obj\Debug\Breakout Game.pdb
+C:\Users\USER\source\repos\Breakout Game\Breakout Game\bin\Debug\MetroFramework.Design.dll
+C:\Users\USER\source\repos\Breakout Game\Breakout Game\bin\Debug\MetroFramework.dll
+C:\Users\USER\source\repos\Breakout Game\Breakout Game\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\USER\source\repos\Breakout Game\Breakout Game\obj\Debug\Breakout Game.csproj.CopyComplete
